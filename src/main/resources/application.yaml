@@ -1,0 +1,9 @@
+moviedb:
+  apikey: 95948993e32deccf9ca0409a514544af
+  movie:
+    discovery: https://api.themoviedb.org/3/discover/movie?api_key={0}&region={1}&year={2}
+    highrated: https://api.themoviedb.org/3/discover/movie?api_key={0}&sort_by=revenue.desc
+
+google:
+  search:
+    url: https://www.google.com/search?q=
