@@ -39,7 +39,6 @@ class ListDirectorsService {
                     break;
                 }
             }
-            directors.add("abc");
         }
 
         return new ArrayList<>(directors);
